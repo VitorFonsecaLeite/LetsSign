@@ -1,0 +1,70 @@
+/* LoginFormSection.jsx */
+
+.login-form-section {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  flex-direction: column;
+}
+
+.form-content {
+  width: 100%;
+  padding: 0 6rem;
+}
+
+.img-logo {
+  width: 19rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.links {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  z-index: 0;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

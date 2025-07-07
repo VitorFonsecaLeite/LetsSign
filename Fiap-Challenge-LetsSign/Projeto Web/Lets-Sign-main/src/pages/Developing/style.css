@@ -1,0 +1,9 @@
+.titleStyle {
+    font-size: '2.5rem';
+    margin-bottom: '1rem';
+}
+
+.textStyle {
+    font-size: '1.25rem';
+    max-width: '400px';
+}

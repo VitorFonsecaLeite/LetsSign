@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F98A121-DEC3-B98F-5FA3-157E5358C7CA" name="TB_Document">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 14:35:21 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Document" id="61985D15-5879-003D-8672-4F5DD2F57E8A">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:05:04 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title_Document" id="D76CE3D6-B03E-B7EC-0777-37C174AE11E8">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:05:13 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FilePath_Document" id="D0B48BD8-1808-AD36-76D1-16D73E025560">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:05:35 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status_Document" id="8C845F7C-6DE6-F04E-4673-FB1746863963">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:06:12 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CreationDate_Document" id="6A30C386-A0B3-17C2-192E-91B73C085BEB">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:06:32 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_User" id="5E46C823-87B2-DA3D-FA71-1221E84269BF">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:42:11 UTC</createdTime>
+<generatorID>7D60D041-0623-2D21-F60A-AF61B6E9FF21</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<referedAttribute>F4D09D31-7000-F8C6-883D-2B031CABAA11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50B0EE16-B528-5822-EC72-9E7226807A0F" name="tb_document PK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 16:07:10 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61985D15-5879-003D-8672-4F5DD2F57E8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="840874F7-1C86-26B3-24D6-F747DFF8D5B8">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 14:09:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="925E85D4-3E0D-4AFF-0C33-60E022E74F79" mainViewID="90EA362D-8831-AAFE-63EC-11460BDC3384">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 14:09:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

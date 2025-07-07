@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35CED5AA-A510-974C-18FE-B08FF3D93937" name="tb_document_folder">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>1B642E71-05F8-2D02-AFFE-84B9D06DEE19</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_Folder_ID_Folder" id="5BF370C6-4581-ACD2-7AD8-EDBFBB25827C">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>0E3A1530-0DEC-BE62-912E-5F028AC48748</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A47F1DE1-B302-EC86-BA33-3E37FE34427C" referredColumn="173B88E5-ACE8-F2E7-CDB1-950413BB6921"/>
+</associations>
+</Column>
+<Column name="TB_Document_ID_Document" id="67048CD7-060F-278F-FDE5-93F49EF9FBDC">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>035F152B-CE06-0362-8C1A-8362E6B4F406</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B48591D3-4087-237E-01FF-B8F196D708CA" referredColumn="4AF458AB-139E-2347-96EF-E54DCF0A59AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97DF63CE-C97E-6F16-D272-4B7EB95554B0" name="tb_document_folder_TB_Folder_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>0BFF9999-DE28-03B3-FCDE-A56392DFE50C</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BF370C6-4581-ACD2-7AD8-EDBFBB25827C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A358CD7B-A764-3C08-6FCB-A051A33FB4AC" name="tb_document_folder_TB_Document_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>E4061165-F208-9F38-80B7-18282BB581E7</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67048CD7-060F-278F-FDE5-93F49EF9FBDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

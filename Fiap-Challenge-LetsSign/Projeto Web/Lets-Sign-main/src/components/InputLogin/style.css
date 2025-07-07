@@ -1,0 +1,22 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 2px solid #a084e8;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  outline: none;
+  color: #333;
+}
+
+.form-group input::placeholder {
+  color: #aaa;
+}

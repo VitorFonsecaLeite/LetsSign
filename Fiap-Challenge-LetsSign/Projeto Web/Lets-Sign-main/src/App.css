@@ -1,0 +1,49 @@
+:root {
+  --side-bar-bg-color: #3d3d85;
+  --side-bar-hover-bg-color: #4d4d9c;
+  --primary-color: #353470;
+  --secundary-color: #2eda8a;
+  --white-color: #fff;
+  --accent-color: #24d3fe;
+  --selected-menu-bg-color: #252550;
+  --side-bar-font-color: #ffffff;
+  --top-bar-li-font-color: #7b8c92;
+  --loading-bar-shadow-color: #2eda8a;
+  --page-title-color: #33336d;
+  --page-title-color2: #8654ff;
+  --page-title-color3: #8654ff;
+  --label-default: #b9b9b9;
+  --pdf-viewer-color: #8654ff4d;
+}
+
+html,
+body {
+  background-color: var(--white-color) !important;
+  height: 100%;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova Light.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova Regular.otf");
+  font-weight: bold;
+}
+
+* {
+  font-family: "Proxima Nova", "Lato", sans-serif !important;
+}
+
+a,
+a:hover,
+a:active {
+  cursor: pointer;
+}
+
+.widescreen.fixed-left {
+  visibility: visible;
+}

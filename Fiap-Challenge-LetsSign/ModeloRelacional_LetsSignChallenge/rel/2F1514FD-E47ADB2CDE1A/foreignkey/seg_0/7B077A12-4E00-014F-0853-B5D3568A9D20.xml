@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B077A12-4E00-014F-0853-B5D3568A9D20" containerWithKeyObject="9C2EBC2F-11DF-138B-4B51-A3FC47B0604B" localFKIndex="AE0AE206-B791-7FAA-1F0A-FDFB730D2A82" name="TB_Permission_User_Folder_TB_Permission_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>33841C90-E9F5-4A08-CAC8-CEC9399204B4</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<referredTableLongName>TB_Permission</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E48148BE-8223-690B-837F-BC5E007E609E</referredTableID>
+<keyObject>2EF340EA-3067-B708-3DDF-1EEB14A038A7</keyObject>
+<referredKeyID>2EF340EA-3067-B708-3DDF-1EEB14A038A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Permission</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

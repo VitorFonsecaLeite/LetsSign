@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C2EBC2F-11DF-138B-4B51-A3FC47B0604B" name="TB_Permission_User_Folder">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>9F29D348-B945-0877-8F3C-F46EE20933C6</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_User_ID_User" id="4AAB89A0-5E8B-05A5-05F8-96CFF65D52BD">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>B1011D1E-E6C3-0932-58BC-7EB47DE7580D</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9196EFDD-4E72-702E-BECD-CB4BE14B47E1" referredColumn="BEF12EBF-F636-FA96-69E5-55974D66CF51"/>
+</associations>
+</Column>
+<Column name="TB_Permission_ID_Permission" id="42911A1C-6D3E-E47C-DA00-70B7D39B511E">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>FD006A1C-FE16-2159-8300-A40073BA9168</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B077A12-4E00-014F-0853-B5D3568A9D20" referredColumn="28FF3FE0-B18D-DD01-E53B-823373878785"/>
+</associations>
+</Column>
+<Column name="TB_Folder_ID_Folder" id="AC379C9E-89DF-FAEF-1F2F-4BF86C22E961">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>2FDEC10D-F53A-0E49-6D76-635A72D0BC69</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78EC8CF8-D539-49EA-5A01-B03C15B15B3C" referredColumn="173B88E5-ACE8-F2E7-CDB1-950413BB6921"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05FB5E77-D016-9DE2-82D2-F0C41B8A1E4C" name="TB_Permission_User_Folder_TB_User_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>B208718E-538D-71F6-947F-D9832E678301</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AAB89A0-5E8B-05A5-05F8-96CFF65D52BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE0AE206-B791-7FAA-1F0A-FDFB730D2A82" name="TB_Permission_User_Folder_TB_Permission_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>33841C90-E9F5-4A08-CAC8-CEC9399204B4</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42911A1C-6D3E-E47C-DA00-70B7D39B511E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6043CA14-CD44-94AA-C81E-0D9D10291C39" name="TB_Permission_User_Folder_TB_Folder_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>D4683C79-1034-EF0B-4FF5-65906B7C51D9</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC379C9E-89DF-FAEF-1F2F-4BF86C22E961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

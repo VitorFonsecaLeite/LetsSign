@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A47F1DE1-B302-EC86-BA33-3E37FE34427C" containerWithKeyObject="35CED5AA-A510-974C-18FE-B08FF3D93937" localFKIndex="97DF63CE-C97E-6F16-D272-4B7EB95554B0" name="tb_document_folder_TB_Folder_FK">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:26 UTC</createdTime>
+<generatorID>0BFF9999-DE28-03B3-FCDE-A56392DFE50C</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<referredTableLongName>TB_Folder</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E509701-87E1-4970-AE3A-735EE515C127</referredTableID>
+<keyObject>6CA4D44C-8948-F864-6A57-3E50C5883BA2</keyObject>
+<referredKeyID>6CA4D44C-8948-F864-6A57-3E50C5883BA2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Folder</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="406723D3-261C-6FD8-BD96-D8BC37373707">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:34:15 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<sourcePk>E7FA79B8-E8A4-18B9-361B-53CBF6A4863D</sourcePk>
+<targetPk>D67E161D-A7C3-A5AE-4304-7F8A27D6C1EA</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>28B01643-6EB4-16CB-DF1D-A0AA213E30D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78AE7475-A6FB-065A-3430-BF85970761CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+Olá avaliador, tudo bem ?
+
+Este projeto foi desenvolvido utilizando React para o front-end da aplicação web. A escolha por React se deu porque decidimos juntos que queriamos experimentar react durante esta atividade, alem do fato da atividade não especificava restrições quanto ao uso de frameworks modernos, conforme pode ser observado no enunciado:
+
+Desenvolvimento do front-end da aplicação web da sua solução.
+
+- Como os métodos de validação de autenticidade poderão ser exibidos nas telas. 
+
+    Exemplos: tela de reconhecimento de biometria, captura da geolocalização,  assinatura através de tokens,  demonstração de como o usuário visualiza o documento a ser assinado e como essas informações ficarão dispostas no layout.
+
+ Lembrando: o desafio precisa explorar novas abordagens que fortaleçam a segurança e a confiabilidade das assinaturas eletrônicas.
+
+- Utilize HTML, CSS, Bootstrap – Estruture seu layout em HTML, organize as seções e enriqueça a interface com os estilos disponíveis em CSS e Bootstrap. 
+
+- Deixe as páginas dinâmicas e interativas com a utilização de JavaScript.
+
+Diante disso, demos continuidade ao projeto utilizando React, pois a ferramenta permite estruturar o layout com HTML (JSX), aplicar estilos com CSS e Bootstrap, além de tornar as páginas dinâmicas e interativas com JavaScript. Essa abordagem está alinhada com o incentivo da FIAP para que seus estudantes busquem soluções inovadoras e utilizem tecnologias atuais.
+
+Ressaltamos que o projeto segue todos os critérios propostos, utilizando HTML, JavaScript e CSS, e proporciona uma experiência moderna, segura e responsiva para o usuário.
+
+Muito obrigado pela atenção e leie o README.md com as instruções de execução do projeto localmente =)

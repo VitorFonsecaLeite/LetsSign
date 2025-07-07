@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F29D348-B945-0877-8F3C-F46EE20933C6" name="TB_Permission_User_Folder">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:23:33 UTC</createdTime>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_User" id="B1011D1E-E6C3-0932-58BC-7EB47DE7580D">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:24:01 UTC</createdTime>
+<generatorID>B208718E-538D-71F6-947F-D9832E678301</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<referedAttribute>F4D09D31-7000-F8C6-883D-2B031CABAA11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Permission" id="FD006A1C-FE16-2159-8300-A40073BA9168">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:24:10 UTC</createdTime>
+<generatorID>33841C90-E9F5-4A08-CAC8-CEC9399204B4</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<referedAttribute>BC49DA05-8409-08BB-A69E-43CA6615A4FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Folder" id="2FDEC10D-F53A-0E49-6D76-635A72D0BC69">
+<createdBy>caiop</createdBy>
+<createdTime>2024-11-17 17:24:15 UTC</createdTime>
+<generatorID>D4683C79-1034-EF0B-4FF5-65906B7C51D9</generatorID>
+<ownerDesignName>ModeloRelacional_LetsSignChallenge</ownerDesignName>
+<engineerTo>
+<item key="2F1514FD-5D0F-C7A3-FA57-E47ADB2CDE1A" value="true"/>
+</engineerTo>
+<referedAttribute>EAA5BFE3-A1E2-2C27-02E2-36645B5CB160</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,17 @@
+.social-button {
+  width: 3.5rem; 
+  height: 3.5rem; 
+  border: 0.1rem solid rgba(86, 86, 86, 0.6); 
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: transparent;
+}
+
+.social-icon {
+  width: 2rem; 
+  height: 2rem;
+  object-fit: contain;
+}
